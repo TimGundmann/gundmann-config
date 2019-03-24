@@ -6,3 +6,4 @@
     bus:
       path: /bus/**
       url:  http://localhost:9898/
+      stripPrefix: true
