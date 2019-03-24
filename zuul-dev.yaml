@@ -4,5 +4,5 @@
       path: /users/**
       url: http://localhost:8080/users
     bus:
-      path: /bus/**
+      path: /**
       url:  http://localhost:4200/
