@@ -5,7 +5,7 @@
       url:  https://localhost:8443/users
     bus:
       path: /bus/**
-      url:  https://http://localhost:9898/
+      url:  http://localhost:9898/
 
 
 ribbon:

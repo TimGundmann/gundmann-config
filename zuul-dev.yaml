@@ -3,3 +3,11 @@
     users:
       path: /users/**
       url: http://localhost:8080/users
+    bus:
+      path: /bus/**
+      url:  http://localhost:9898/
+
+
+ribbon:
+  eureka:
+    enabled: false
