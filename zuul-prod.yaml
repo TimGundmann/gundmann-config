@@ -6,8 +6,3 @@
     bus:
       path: /bus/**
       url:  http://localhost:9898/
-
-
-ribbon:
-  eureka:
-    enabled: false
