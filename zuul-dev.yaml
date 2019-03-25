@@ -6,7 +6,7 @@
     plans:
       path: /plans/**
       url:  http://localhost:8081/plans
-    plans:
+    news:
       path: /news/**
       url:  http://localhost:8082/news
     bus:
