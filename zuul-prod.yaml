@@ -3,6 +3,12 @@
     users:
       path: /users/**
       url:  https://localhost:8443/users
+    plans:
+      path: /plans/**
+      url:  https://localhost:8444/plans
+    plans:
+      path: /news/**
+      url:  https://localhost:8445/news
     bus:
       path: /**
       url:  http://localhost:9898/
