@@ -13,3 +13,8 @@
     bus:
       path: /**
       url:  http://localhost:9898/
+
+spring:
+  mvc:
+    favicon:
+      enabled: false
