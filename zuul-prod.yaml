@@ -12,4 +12,4 @@ zuul:
       url: https://localhost:8445/news
     bus:
       path: /**
-      url: http://localhost:9898
+      url: http://localhost:9899
