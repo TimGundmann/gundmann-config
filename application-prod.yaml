@@ -15,6 +15,13 @@ dk:
       syspassword: '{cipher}c04e062d96a90c5dc4bbd2f7d9135ef1dec37abe42e5972dd18d7f3efe329910721533057c97e9813e845c7bd425cb77edc165a346872504024abfcdc03204a611de386008808b2e918a952867905c13'
 
 spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        ddl-auto: update
   boot:
     admin:
       client:
@@ -24,3 +31,22 @@ spring:
         instance:
           management-base-url: https://gundmann.dk/${server.servlet.context-path}
           service-url: https://gundmann.dk${server.servlet.context-path}
+
+management:
+  security:
+    enabled: false
+  contextPath: /actuator
+  endpoint:
+    health.show-details: always
+  endpoints:
+    web:
+      exposure.include: '*'
+  ssl:
+    enabled: true
+
+info: 
+  app:
+    version: '@project.version@'
+
+user:
+  url: https://www.gundmann.dk/users
