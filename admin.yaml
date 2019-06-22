@@ -7,3 +7,4 @@ spring:
     admin:
       ui:
         title: Gundmann Spring Boot Admin
+
