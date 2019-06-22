@@ -3,3 +3,9 @@ server:
     8081
   servlet:
     context-path: /plans
+
+spring:
+  datasource:
+    password: '{cipher}de0eb5334abaf2be7f59adaed32d11573aa13ed1a43fee42ec56a95f22f7548b2a35d08244fb089f1058140dd362bf1e'
+    username: message
+    url: ${dk.gundmann.host.db}/message?autoReconnect=true&useSSL=false&connectTimeout=10000&socketTimeout=60000&serverTimezone=UTC

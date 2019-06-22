@@ -1,2 +1,10 @@
 server:
   port: 8080
+  servlet:
+    context-path: /plans
+
+spring:
+    datasource:
+        password: '{cipher}28698a854915a83e8586a5db6875a32f7dc70a102f38c33ba12fe5e7e7972df4791a5c7d83aea4d4bf999727b5215a6c'
+        username: user
+        url: ${dk.gundmann.host.db}/user?autoReconnect=true&useSSL=false&connectTimeout=5000&socketTimeout=60000&serverTimezone=UTC
