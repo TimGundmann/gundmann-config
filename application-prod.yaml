@@ -13,3 +13,13 @@ dk:
       headerString: Authorization
       mailPassword: '{cipher}7173a4c253e033d72e975ea08dc4c62fd040123981d5f4fef411b1acc962dfc8'
       syspassword: '{cipher}c04e062d96a90c5dc4bbd2f7d9135ef1dec37abe42e5972dd18d7f3efe329910721533057c97e9813e845c7bd425cb77edc165a346872504024abfcdc03204a611de386008808b2e918a952867905c13'
+
+spring:
+  boot:
+    admin:
+      client:
+        username: tim
+        password: '{cipher}5930ce1dd8cff9d0fe9002ea488964786df68ecc021528ad6af46617da54c98c'
+        url: http://localhost:2222
+        management-base-url: https://gundmann.dk/${server.servlet.context-path}
+        service-url: https://gundmann.dk${server.servlet.context-path}
