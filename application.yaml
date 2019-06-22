@@ -1,0 +1,38 @@
+dk:
+  gundmann:
+    host:
+      ip: http://192.168.1.100
+      domain: https://gundmann.dk
+      db: jdbc:mysql://192.168.1.100:3306
+    security:
+      secret: '{cipher}c7c7b1a83317a70a2427f918542d365a04c0f6a10303febfef14772abb80b50ef45f9a0f449d84bf378ec57f98192ebd3d37865ee9a02cbb0eb66b9d1bf942e8'
+      tokenPrefix: gundmann
+      headerString: Authorization
+      mailPassword: '{cipher}7173a4c253e033d72e975ea08dc4c62fd040123981d5f4fef411b1acc962dfc8'
+      syspassword: '{cipher}c04e062d96a90c5dc4bbd2f7d9135ef1dec37abe42e5972dd18d7f3efe329910721533057c97e9813e845c7bd425cb77edc165a346872504024abfcdc03204a611de386008808b2e918a952867905c13'
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        ddl-auto: update
+
+management:
+  security:
+    enabled: false
+  contextPath: /actuator
+  endpoint:
+    health.show-details: always
+  endpoints:
+    web:
+      exposure.include: '*'
+
+info: 
+  app:
+    version: '@project.version@'
+
+user:
+  url: ${dk.gundmann.host.domain}/users
