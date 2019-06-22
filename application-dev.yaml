@@ -1,13 +1,13 @@
-server:
-  ssl:
-    enabled: false
-    key-store: /
-    key-store-password: 
-    key-store-type: 
-
 spring:
     profiles:
         include: prod
+
+server:
+  ssl:
+    enabled: false
+    key-store:
+    key-store-password: 
+    key-store-type: 
 
 dk:
   gundmann:
