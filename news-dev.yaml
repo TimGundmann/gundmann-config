@@ -1,12 +1,2 @@
 server:
   port: 8082
-
-dk:
-  gundmann:
-    security:
-      secret: '{cipher}64d263ff4099ba1c4fffca1333780c0e76c105c8c6b59ab9100dde39729f65505276dcef3b03b4bf9691ee149d56c7c742f7a40febe6db1370882ddcb8671101e0b11d4acd3da3e494d173f1ae76c6d5509b2ef0f457a7b64c7b4d2936b639dcd9e6c076560b0a21086b0bf4729802f78805513be02cd13e5715e79fb96dc1ba5e7c9788788e1ade091f808383015de71180951bd171731ee3918bd7a75e0dff'
-      tokenPrefix: gundmann
-      headerString: Authorization
-
-user:
-  url: http://localhost:8080/users
