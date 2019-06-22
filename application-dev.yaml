@@ -1,7 +1,7 @@
 server:
   ssl:
     enabled: false
-    key-store: 
+    key-store: /
     key-store-password: 
     key-store-type: 
 
