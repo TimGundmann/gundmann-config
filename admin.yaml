@@ -7,4 +7,20 @@ spring:
     admin:
       ui:
         title: Gundmann Spring Boot Admin
-
+      notify:
+        mail:
+          to: tim@gundmann.dk
+          from: smtp@gundmann.dk
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    user-name: smtp@gundmann.dk
+    password: '{cipher}7173a4c253e033d72e975ea08dc4c62fd040123981d5f4fef411b1acc962dfc8'
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          auth: true
+          starttls:
+            enable: true
