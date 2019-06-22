@@ -6,7 +6,7 @@ spring:
   datasource:
     password: '{cipher}20c0cd5a8788adc52737d20e177ec4522d29afc740c124e3622d68c3768878cde213dbf66a14007036cf264646f5acca'
     username: news
-    url: jdbc:mysql://192.168.1.100:3306/news?autoReconnect=true&useSSL=false&connectTimeout=5000&socketTimeout=60000&serverTimezone=UTC
+    url: ${dk.gundmann.host.db}/news?autoReconnect=true&useSSL=false&connectTimeout=5000&socketTimeout=60000&serverTimezone=UTC
 
 feign:
   client:

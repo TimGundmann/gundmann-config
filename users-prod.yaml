@@ -1,0 +1,14 @@
+server:
+    servlet:
+        context-path: /users
+
+spring:
+    datasource:
+        password: userAccessFromRemote
+        username: user
+        url: ${dk.gundmann.host.db}/user?autoReconnect=true&useSSL=false&connectTimeout=5000&socketTimeout=60000&serverTimezone=UTC
+
+info:
+    app:
+        name: User service
+        description: User service for the gundmann domain
