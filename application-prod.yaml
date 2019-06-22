@@ -8,7 +8,7 @@ server:
 dk:
   gundmann:
     host:
-      ip: hrrp://192.168.1.100
+      ip: http://192.168.1.100
       domain: https://gundmann.dk
       db: jdbc:mysql://192.168.1.100:3306
     security:
