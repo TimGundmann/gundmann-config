@@ -1,7 +1,3 @@
-spring:
-    profiles:
-        include: prod
-
 server:
   ssl:
     enabled: false
