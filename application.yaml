@@ -36,7 +36,3 @@ info:
 
 user:
   url: ${dk.gundmann.host.domain}/users
-
-feign:
-  hystrix:
-    enabled: true
