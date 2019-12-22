@@ -1,9 +1,6 @@
 server:
   servlet:
     context-path: /admin
-    
-logging:
-  file: /var/log/spring-boot-application.log
 
 spring:
   security:
