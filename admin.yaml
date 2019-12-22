@@ -16,6 +16,10 @@ spring:
         mail:
           to: tim@gundmann.dk
           from: smtp@gundmann.dk
+      client:
+          username: tim
+          password: '{cipher}5930ce1dd8cff9d0fe9002ea488964786df68ecc021528ad6af46617da54c98c'
+          
   mail:
     host: smtp.gmail.com
     port: 587
