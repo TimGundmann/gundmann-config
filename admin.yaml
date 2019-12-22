@@ -2,7 +2,7 @@ server:
   servlet:
     context-path: /admin
     
-logging
+logging:
   file: /var/log/spring-boot-application.log
 
 spring:
