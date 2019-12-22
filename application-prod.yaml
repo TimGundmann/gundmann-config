@@ -14,7 +14,7 @@ spring:
         url: ${dk.gundmann.host.ip}:2222/admin/admin
         instance:
           management-base-url: localhost:${server.port}/${server.servlet.context-path:}
-          service-url: localhost:${server.port}/${server.servlet.context-path:/}
+          service-url: localhost:${server.port}${server.servlet.context-path:/}
 
 management:
   ssl:
