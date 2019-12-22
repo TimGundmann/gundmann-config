@@ -13,8 +13,8 @@ spring:
         password: '{cipher}5930ce1dd8cff9d0fe9002ea488964786df68ecc021528ad6af46617da54c98c'
         url: ${dk.gundmann.host.ip}:2222/admin/admin
         instance:
-          management-base-url: localhost:${server.port}${server.servlet.context-path:}
-          service-url: localhost:${server.port}${server.servlet.context-path:/}
+          management-base-url: https://localhost:${server.port}${server.servlet.context-path:}
+          service-url: https://localhost:${server.port}${server.servlet.context-path:/}
 
 management:
   ssl:
