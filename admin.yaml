@@ -10,6 +10,8 @@ spring:
       password: '{cipher}5930ce1dd8cff9d0fe9002ea488964786df68ecc021528ad6af46617da54c98c'
   boot:
     admin:
+      monitor: 
+        default-retries: 2
       ui:
         title: Gundmann Spring Boot Admin
       notify:
