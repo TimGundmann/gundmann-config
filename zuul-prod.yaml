@@ -10,6 +10,9 @@ zuul:
     news:
       path: /news/**
       url: https://localhost:8445/news
+    time:
+      path: /time/**
+      url: https://localhost:8446/time
     bus:
       path: /**
       url: http://localhost:9898
