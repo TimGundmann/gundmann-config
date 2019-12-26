@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /time
+
+spring:
+  datasource:
+    password: '{cipher}0bb1c1b13bbc85b3cce8c53adaf2e30b81ceb050e33bf854145eedc3674e8a3e9a42a12646aa549e60cbf5d78900e89a'
+    username: news
+    url: ${dk.gundmann.host.db}/time?autoReconnect=true&useSSL=false&connectTimeout=5000&socketTimeout=60000&serverTimezone=UTC
+
+feign:
+  client:
+    config:
+      user:
+        connectTimeout: 5000
+        readTimeout: 30000
+
+info:
+  app:
+    name: Time service
+    description: Time service for the gundmann domain
