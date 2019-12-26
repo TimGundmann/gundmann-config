@@ -15,7 +15,7 @@ spring:
         instance:
           management-base-url: ${dk.gundmann.host.domain}/${server.servlet.context-path:}
           service-url: ${dk.gundmann.host.domain}${server.servlet.context-path:/}
-
+          
 management:
   ssl:
     enabled: true
