@@ -37,7 +37,7 @@ info:
 user:
   url: ${dk.gundmann.host.domain}/users
   
-logging.file=/var/log/spring-boot-application.log
+logging.file: /var/log/spring-boot-application.log
 logging:
   file:
     max-history: 2
