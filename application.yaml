@@ -2,7 +2,7 @@ dk:
   gundmann:
     host:
       ip: http://192.168.1.100
-      domain: https://87.49.217.58
+      domain: https://www.gundmann.dk
       db: jdbc:mysql://192.168.1.100:3306
     security:
       secret: '{cipher}c7c7b1a83317a70a2427f918542d365a04c0f6a10303febfef14772abb80b50ef45f9a0f449d84bf378ec57f98192ebd3d37865ee9a02cbb0eb66b9d1bf942e8'
