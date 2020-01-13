@@ -1,6 +1,5 @@
 server:
   servlet:
-    context-path: /admin
     use-forward-headers: true
     
 spring:
@@ -14,7 +13,7 @@ spring:
         default-retries: 2
       ui:
         title: Gundmann Spring Boot Admin
-        public-url: ${dk.gundmann.host.domain}
+        public-url: ${dk.gundmann.host.domain}/admin
       notify:
         mail:
           to: tim@gundmann.dk
