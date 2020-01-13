@@ -13,7 +13,7 @@ spring:
         default-retries: 2
       ui:
         title: Gundmann Spring Boot Admin
-        public-url: ${dk.gundmann.host.domain}/admin
+        public-url: /admin
       notify:
         mail:
           to: tim@gundmann.dk
