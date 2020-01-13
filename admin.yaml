@@ -11,7 +11,7 @@ spring:
   boot:
     admin:
       monitor: 
-        default-retries: 2
+        default-retries: 10
       ui:
         title: Gundmann Spring Boot Admin
         public-url: /admin
