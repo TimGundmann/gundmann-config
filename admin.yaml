@@ -2,10 +2,6 @@ server:
   servlet:
     context-path: /admin
     use-forward-headers: true
-  ssl:
-    key-store: /security/certs/gundmann.pfx
-    key-store-password: '{cipher}b7917a9d7f5d4d9eabd46a4d16ce4337bb42e1d7c42d2c09fac51cdf8eddadcb'
-    key-store-type: PKCS12
     
 spring:
   security:
