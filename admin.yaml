@@ -1,5 +1,6 @@
 server:
   servlet:
+    context-path: /
     use-forward-headers: true
     
 spring:
